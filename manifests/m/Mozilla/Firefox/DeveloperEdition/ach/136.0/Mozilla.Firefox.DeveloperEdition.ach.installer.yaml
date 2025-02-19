@@ -1,0 +1,42 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Mozilla.Firefox.DeveloperEdition.ach
+PackageVersion: "136.0"
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Silent: /S /PreventRebootRequired=true
+  SilentWithProgress: /S /PreventRebootRequired=true
+  InstallLocation: /InstallDirectoryPath="<INSTALLPATH>"
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+FileExtensions:
+- avif
+- htm
+- html
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+ReleaseDate: 2025-02-17
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/136.0b7/win32/ach/Firefox%20Setup%20136.0b7.exe
+  InstallerSha256: B05D06F3DA63AB31C8361BA37A8BD5344097FEF87D5283CE564DEE85304869E7
+  ProductCode: Firefox Developer Edition 136.0 (x86 ach)
+- Architecture: x64
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/136.0b7/win64/ach/Firefox%20Setup%20136.0b7.exe
+  InstallerSha256: A530FEDEBA8CADBFB489D43A3287C15B94D80603D1E3E429B743A921232E650E
+  ProductCode: Firefox Developer Edition 136.0 (x64 ach)
+- Architecture: arm64
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/136.0b7/win64-aarch64/ach/Firefox%20Setup%20136.0b7.exe
+  InstallerSha256: 6167668543ABB41D4A1A7596984EEAE488DA598A1F13CF874BE3ED7EE8049C67
+  ProductCode: Firefox Developer Edition 136.0 (arm64 ach)
+ManifestType: installer
+ManifestVersion: 1.9.0

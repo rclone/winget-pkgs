@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: Microsoft.VisualStudioCode.Insiders.CLI
+PackageVersion: 1.98.0
+Commands: []
+InstallerType: zip
+Installers:
+  - Architecture: arm64
+    InstallerUrl: 'https://vscode.download.prss.microsoft.com/dbazure/download/insider/d40c5807994c7750a0afe107603e462f7486e276/vscode_cli_win32_arm64_cli.zip'
+    InstallerSha256: 7b8f31aff5748faa114db1ffdaf3006c3d11044bcc5d27905cfeada89c7bc002
+  - Architecture: x64
+    InstallerUrl: 'https://vscode.download.prss.microsoft.com/dbazure/download/insider/d40c5807994c7750a0afe107603e462f7486e276/vscode_cli_win32_x64_cli.zip'
+    InstallerSha256: dff589a6fb1e3a5225f5ecc62f6a97b2bd4e932af6c01dc1f72e1550b4e4d46d
+ManifestType: installer
+ManifestVersion: 1.5.0
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: ./code-insiders.exe
+    PortableCommandAlias: code-insiders
