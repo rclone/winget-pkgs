@@ -24,19 +24,19 @@ FileExtensions:
 - webp
 - xht
 - xhtml
-ReleaseDate: 2025-05-30
+ReleaseDate: 2025-06-06
 Installers:
 - Architecture: x86
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/140.0b3/win32/kk/Firefox%20Setup%20140.0b3.exe
-  InstallerSha256: F847D71C4F3EFBEC5E8137B899D559DF4C7FA0AE1267382A2EF0C8BFB7CA45B9
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/140.0b6/win32/kk/Firefox%20Setup%20140.0b6.exe
+  InstallerSha256: EA755A48AEA8D09B6A793B6C3669C736F4219B982DDF0ADD0238117386EE764C
   ProductCode: Firefox Developer Edition 140.0 (x86 kk)
 - Architecture: x64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/140.0b3/win64/kk/Firefox%20Setup%20140.0b3.exe
-  InstallerSha256: 8A1E75450D8E8ECBD81907AFD4686DD78D87CFC6946A81A3C859E8E6E220FF26
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/140.0b6/win64/kk/Firefox%20Setup%20140.0b6.exe
+  InstallerSha256: 1E9B49C09B6F3A6B723F15D3D6DF0868E0F16E401A82F104C2102FB385BFBDDD
   ProductCode: Firefox Developer Edition 140.0 (x64 kk)
 - Architecture: arm64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/140.0b3/win64-aarch64/kk/Firefox%20Setup%20140.0b3.exe
-  InstallerSha256: 2DF7C2D96B22E320AEB7208CDD0D35C83A3BD0EA38CC48A9A271DB17E6A85FA6
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/140.0b6/win64-aarch64/kk/Firefox%20Setup%20140.0b6.exe
+  InstallerSha256: D09BBF41567531FBBCE978DC290CDBF6211B88BB52DB553E776CCB7684964349
   ProductCode: Firefox Developer Edition 140.0 (arm64 kk)
 ManifestType: installer
 ManifestVersion: 1.10.0
